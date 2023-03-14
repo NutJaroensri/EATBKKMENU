@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(to right, #b00707, #090979);
+
+}
+
+header{
+    display: flex;
+    background-color: #dfdcdc;
+    border-radius: 15px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+
+}
+nav{
+    display: flex;
+
+    width: 100%;
+}
+#nav-items{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+    list-style-type: none;
+}
+#bodyWrapper{
+    background-color: #dfdcdc;
+    padding: 1.5%;
+    border-radius: 15px;
+}
+main{
+    background-color: white;
+    border-radius: 15px;
+
+}
+#protein_options, #menu_title{
+    text-align: center;
+}
+#menu-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto;
+    row-gap: 15px;
+    column-gap: 10px;
+
+    margin: 0 auto;
+
+
+}
+.menu_details{
+    display: grid;
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "name price""description .";
+
+}
+
+.menu_item {
+    display: grid;
+    grid-template-columns: 210px 70%;
+    grid-template-rows: 160px;
+    grid-template-areas: "image details" ;
+    grid-gap: 2% 2.2%;
+
+
+
+
+}
+
+.menu_image {
+    grid-area: image;
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+
+.category{
+    padding-left: 1.5%;
+    margin: 0;
+}
+
+
+.menu_details{ grid-area: details;
+}
