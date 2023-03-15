@@ -9,7 +9,7 @@ body {
 
 @media only screen and (min-width: 801px) {
     body {
-        background-image: linear-gradient(to right, black, #b00707);
+        background-image: linear-gradient(to right, #b00707, #b00707);
         font-family: "PT Sans", sans-serif;
     }
     #menu_title{
@@ -43,6 +43,13 @@ body {
 
 
     .menu_item {
+        display: grid;
+        grid-template-columns: 25% 70%;
+        grid-template-rows: 150%;
+        grid-template-areas: "image details";
+        grid-gap: 2% 2.2%;
+    }
+    .no_img_menu_item {
         display: grid;
         grid-template-columns: 25% 70%;
         grid-template-rows: 150%;
@@ -177,6 +184,14 @@ main {
     grid-template-areas: "image details";
     grid-gap: 2% 2.2%;
 }
+#gratuity{
+    background-color: #dfdcdc;
+    font-size: 10px;
+    color: red;
+
+    padding-left: 4px;
+
+}
 
 @media only screen and (max-width: 900px) {
     body {
@@ -281,6 +296,13 @@ main {
 
         padding-left: 4px;
 
+    }
+    .no_img_menu_item {
+        display: grid;
+        margin-left: 8px;
+        grid-template-rows: 30px;
+        grid-template-areas: "details";
+        grid-gap: 2% 2.2%;
     }
 }
 
