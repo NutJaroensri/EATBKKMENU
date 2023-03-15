@@ -213,10 +213,13 @@ main {
     }
 
     .menu_details {
+        grid-area: details;
         display: grid;
         grid-template-rows: 5px 5px;
         grid-template-columns: 8fr 1fr;
         grid-template-areas: "name price" "description .";
+
+        margin: 0;
     }
 
     .menu_name {
@@ -243,6 +246,14 @@ main {
         grid-gap: 2% 2.2%;
     }
 
+    .long_menu_item{
+        display: grid;
+        grid-template-columns: 19% 78%;
+        grid-template-rows: 130px;
+        grid-template-areas: "image long_details";
+        grid-gap: 2% 2.2%;
+    }
+
     .menu_image {
         grid-area: image;
         display: flex;
@@ -254,10 +265,22 @@ main {
         height: 72%;
     }
 
-    .menu_details {
-        grid-area: details;
-
+    .long_menu_details {
+        grid-area: long_details;
+        display: grid;
+        grid-template-rows: 5px 7px;
+        grid-template-columns: 8fr 1fr;
+        grid-template-areas: "name price" "description .";
         margin: 0;
+
+    }
+    #gratuity{
+        background-color: #dfdcdc;
+        font-size: 10px;
+        color: red;
+
+        padding-left: 4px;
+
     }
 }
 
