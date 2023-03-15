@@ -13,7 +13,7 @@ body {
         font-family: "PT Sans", sans-serif;
     }
     #menu_title{
-        margin-top: 20px;
+        margin-top: 30px;
     }
     #protein_options{
         margin: 0 10px 0 10px;
@@ -185,19 +185,19 @@ main {
     }
 
     #menu_title {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
-    #protein_options {
-        text-align: center;
-        margin: 0;
+    .protein_options {
+        margin-left: 10px;
+        margin-top: 0px;
         font-size: 15px;
     }
 
     .category {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     header {
