@@ -202,9 +202,31 @@ main {
     padding-left: 4px;
 
 }
+.no_img_menu_item {
+    display: grid;
+    margin-left: 8px;
+    padding-right: 6px;
+    grid-template-rows: 30px;
+    grid-template-areas: "details";
+    grid-gap: 2% 2.2%;
+}
+#drink7Perrier{
+    margin-top: 15px;
+}
+#vegan4veganPadSeeEwe{
+    margin-top: 8px;
+}
+#newItem8Kimchi{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+#vegan9padKraprao{
+    margin-bottom: 50px;
+}
 .no_img_menu_item_listed {
     display: grid;
     margin-left: 50px;
+    padding-right: 6px;
     grid-template-rows: 30px;
     grid-template-areas: "details";
     grid-gap: 2% 2.2%;
@@ -215,7 +237,7 @@ main {
 
 @media only screen and (max-width: 900px) {
     body {
-        background-image: linear-gradient(to left, #090979, #b00707);
+        background-image: linear-gradient(to right, #090979, #b00707);
         font-family: "PT Sans", sans-serif;
     }
 
@@ -307,6 +329,7 @@ main {
     .no_img_menu_item {
         display: grid;
         margin-left: 8px;
+        padding-right: 6px;
         grid-template-rows: 30px;
         grid-template-areas: "details";
         grid-gap: 2% 2.2%;
@@ -345,6 +368,7 @@ main {
     .no_img_menu_item_listed {
         display: grid;
         margin-left: 50px;
+        padding-right: 6px;
         grid-template-rows: 30px;
         grid-template-areas: "details";
         grid-gap: 2% 2.2%;
