@@ -202,10 +202,20 @@ main {
     padding-left: 4px;
 
 }
+.no_img_menu_item_listed {
+    display: grid;
+    margin-left: 50px;
+    grid-template-rows: 30px;
+    grid-template-areas: "details";
+    grid-gap: 2% 2.2%;
+}
+.menu_block_name{
+    margin: 10px;
+}
 
 @media only screen and (max-width: 900px) {
     body {
-        background-image: linear-gradient(to right, #090979, #b00707);
+        background-image: linear-gradient(to left, #090979, #b00707);
         font-family: "PT Sans", sans-serif;
     }
 
