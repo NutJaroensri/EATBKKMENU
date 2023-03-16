@@ -9,7 +9,7 @@ body {
 
 @media only screen and (min-width: 801px) {
     body {
-        background-image: linear-gradient(to right, #b00707, #b00707);
+        background-image: linear-gradient(to right, #b00707, #090979);
         font-family: "PT Sans", sans-serif;
     }
     #menu_title{
@@ -50,6 +50,16 @@ body {
         grid-gap: 2% 2.2%;
     }
     .no_img_menu_item {
+        display: grid;
+        grid-template-columns: 25% 70%;
+        grid-template-rows: 150%;
+        grid-template-areas: "image details";
+        grid-gap: 2% 2.2%;
+    }
+    .subCat{
+
+    }
+    .no_img_menu_item_list {
         display: grid;
         grid-template-columns: 25% 70%;
         grid-template-rows: 150%;
@@ -263,13 +273,7 @@ main {
         grid-gap: 2% 2.2%;
     }
 
-    .long_menu_item{
-        display: grid;
-        grid-template-columns: 19% 78%;
-        grid-template-rows: 130px;
-        grid-template-areas: "image long_details";
-        grid-gap: 2% 2.2%;
-    }
+
 
     .menu_image {
         grid-area: image;
@@ -282,15 +286,6 @@ main {
         height: 72%;
     }
 
-    .long_menu_details {
-        grid-area: long_details;
-        display: grid;
-        grid-template-rows: 5px 7px;
-        grid-template-columns: 10fr 1fr;
-        grid-template-areas: "name price" "description .";
-        margin: 0;
-
-    }
     #gratuity{
         background-color: #dfdcdc;
         font-size: 10px;
@@ -319,5 +314,36 @@ main {
     #vegan9padKraprao{
         margin-bottom: 50px;
     }
+    /*.no_img_menu_item_list {
+        display: grid;
+        margin-left: 16px;
+        grid-template-rows: 10px 10px 10px 10px;
+        grid-template-areas: "name ." "listed_details" "listed_details" "listed_details";
+        grid-gap: 2% 2.2%;
+    }
+    .listed_details{
+        grid-area: details;
+        display: grid;
+        grid-template-rows: 5px 5px;
+        grid-template-columns: 8fr 1fr;
+        grid-template-areas: "sub price";
+        margin: 0;
+    }
+    .sub{
+        grid-area: sub;
+    }*/
+    .no_img_menu_item_listed {
+        display: grid;
+        margin-left: 50px;
+        grid-template-rows: 30px;
+        grid-template-areas: "details";
+        grid-gap: 2% 2.2%;
+    }
+    .menu_block_name{
+        margin: 10px;
+    }
+
+
+
 }
 
