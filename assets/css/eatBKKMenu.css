@@ -234,6 +234,9 @@ main {
 .menu_block_name{
     margin: 10px;
 }
+.long_description{
+    margin-bottom: 25px;
+}
 
 @media only screen and (max-width: 900px) {
     body {
@@ -330,9 +333,10 @@ main {
         display: grid;
         margin-left: 8px;
         padding-right: 6px;
-        grid-template-rows: 30px;
+        grid-template-rows: 50px;
         grid-template-areas: "details";
         grid-gap: 2% 2.2%;
+        margin-bottom: 10px;
     }
     #drink7Perrier{
         margin-top: 15px;
@@ -375,6 +379,31 @@ main {
     }
     .menu_block_name{
         margin: 10px;
+    }
+
+    #cocktail6GoodMood{
+        margin-bottom: 25px;
+    }
+    #cocktail7Dreamy{
+        margin-bottom: 25px;
+    }
+    #cocktail12BkkPunch{
+        margin-bottom: 25px;
+    }
+    #cocktail13Tropical{
+        margin-bottom: 25px;
+    }
+    #cocktail14Quarantine{
+        margin-bottom: 25px;
+    }
+    #cocktail16BkkSkylight{
+        margin-bottom: 50px;
+    }
+    #cocktail19EmeraldCave{
+        margin-bottom: 50px;
+    }
+    #cocktail20Beachy{
+        margin-bottom: 50px;
     }
 
 
