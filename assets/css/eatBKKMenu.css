@@ -332,8 +332,6 @@ main {
         grid-gap: 2% 2.2%;
     }
 
-
-
     .menu_image {
         grid-area: image;
         display: flex;
@@ -417,6 +415,53 @@ main {
     #cocktail20Beachy{
         margin-bottom: 50px;
     }
+
+    .menu_listed_item {
+        display: grid;
+        grid-template-columns: 19% 78%;
+        grid-template-rows: 100px;
+        grid-template-areas: "image details";
+        grid-gap: 2% 2.2%;
+    }
+
+    .menu_details_listed {
+        grid-area: details;
+        display: grid;
+        grid-template-rows: 20px 20px;
+        grid-template-columns: 7fr 1fr;
+        grid-template-areas: "listed_name .""option1 price1" "option2 price2";
+
+        margin: 0;
+    }
+
+    .menu_listed_name {
+        margin: 0;
+        grid-area: listed_name;
+        grid-column: 1/3;
+    }
+
+    .menu_price1 {
+        margin: 0;
+        grid-area: price1;
+        justify-self: right;
+    }
+
+    .menu_price2 {
+        margin: 0;
+        grid-area: price2;
+        justify-self: right;
+    }
+
+    .menu_option1{
+        margin: 0;
+        grid-area: option1;
+    }
+
+    .menu_option2{
+        margin: 0;
+        grid-area: option2;
+    }
+
 
 
 
