@@ -379,24 +379,7 @@ main {
     #vegan9padKraprao{
         margin-bottom: 50px;
     }
-    /*.no_img_menu_item_list {
-        display: grid;
-        margin-left: 16px;
-        grid-template-rows: 10px 10px 10px 10px;
-        grid-template-areas: "name ." "listed_details" "listed_details" "listed_details";
-        grid-gap: 2% 2.2%;
-    }
-    .listed_details{
-        grid-area: details;
-        display: grid;
-        grid-template-rows: 5px 5px;
-        grid-template-columns: 8fr 1fr;
-        grid-template-areas: "sub price";
-        margin: 0;
-    }
-    .sub{
-        grid-area: sub;
-    }*/
+
     .no_img_menu_item_listed {
         display: grid;
         margin-left: 50px;
@@ -405,6 +388,7 @@ main {
         grid-template-areas: "details";
         grid-gap: 2% 2.2%;
     }
+
     .menu_block_name{
         margin: 10px;
     }
