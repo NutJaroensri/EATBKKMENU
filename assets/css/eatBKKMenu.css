@@ -146,6 +146,7 @@ main {
     row-gap: 15px;
     column-gap: 10px;
     margin: 0 auto;
+    padding-right: 8px;
 }
 
 .menu_details {
