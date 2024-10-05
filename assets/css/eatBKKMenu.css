@@ -431,6 +431,16 @@ main {
         grid-gap: 2% 2.2%;
         margin-bottom: 25px;
     }
+
+    .long_description_cocktails {
+        display: grid;
+        margin-left: 8px;
+        padding-right: 6px;
+        grid-template-rows: 50px;
+        grid-template-areas: "details";
+        grid-gap: 2% 2.2%;
+        margin-bottom: 300px;
+    }
     #drink7Perrier{
         margin-top: 15px;
     }
@@ -463,25 +473,25 @@ main {
     }
 
     #cocktail6GoodMood{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
     #cocktail7Dreamy{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
     #cocktail12BkkPunch{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
     #cocktail13Tropical{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
     #cocktail14Quarantine{
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
     #cocktail16BkkSkylight{
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
     #cocktail19EmeraldCave{
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
     #cocktail20Beachy{
         margin-bottom: 50px;
